@@ -27,6 +27,21 @@ public class StudiKasus2 {
                     status = "Anda tidak mendapatkan dana pengharagaan";
                 }
             }
+        } else if (kegiatan.equalsIgnoreCase("pkm")) {
+            System.out.print("Jumlah dokumen : ");
+            jumdokum = pj.nextInt();
+            System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak lolos) : ");
+            danapkm = pj.nextInt();
+            if (jumdokum < 4) {
+                kurang = 4 - jumdokum;
+                status = "Dokumen tidak lengkap (kurang " + kurang + " dokumen). Dana penghargaan tidak diberikan";
+            } else {
+                if (danapkm == 1) {
+                    status = "Selamat anda berhak mendapatkan dana penghargaan";
+                } else {
+                    status = "Anda tidak mendapatkan dana penghargaan";
+                }
+            }
         } else {
             status = "Anda tidak mendapatkan dana penghargaan. (kegiatan tidak valid)";
   
