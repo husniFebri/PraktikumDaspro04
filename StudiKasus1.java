@@ -14,8 +14,5 @@ public class StudiKasus1 {
         jumlahCup = pp.nextInt();
         System.out.print("Masukkan uang bayar \t: ");
         uangBayar = pp.nextInt();   
-
-        
-       
     }
 }
