@@ -3,7 +3,7 @@ Nama    : Ahmad Husni Febriansyah
 NIM     : 264107020049
 Kelas   : TI_1H
 
-Hasil Uji Studi Kasus 2 oleh <Muhammad Rizal Thoriq>
+Hasil Uji Studi Kasus 2 oleh Muhammad Rizal Thoriq
 | No |  Jenis  | Dokumen | Juara/Dana |  Output | Sesuai? |
 |----|---------|---------|------------|---------|---------|
 |  1 | Bakorama|    4    |     1      |  Berhak |    Ya   |
